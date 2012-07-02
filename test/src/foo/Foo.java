@@ -7,4 +7,8 @@ public class Foo extends Bar {
 		id = 0;
 	}
 
+	public void bar() {
+		System.out.println("Bar!");
+	}
+	
 }
