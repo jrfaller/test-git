@@ -1,8 +1,6 @@
 package foo;
 
-public class Foo {
-	
-	public int id;
+public class Foo extends Bar {
 	
 	public Foo() {
 		System.out.println("Foo!");
