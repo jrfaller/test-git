@@ -8,7 +8,7 @@ public class Foo extends Bar {
 		bar();
 	}
 
-	private void bar() {
+	protected void bar() {
 		System.out.println("Bar!");
 	}
 	
