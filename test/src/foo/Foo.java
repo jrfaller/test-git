@@ -4,7 +4,7 @@ public class Foo {
 	
 	public int id;
 	
-	public Foo() {
+	private Foo() {
 		System.out.println("Foo!");
 		id = 0;
 	}
