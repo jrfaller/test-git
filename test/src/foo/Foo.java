@@ -2,7 +2,7 @@ package foo;
 
 public class Foo extends Bar {
 	
-	public Foo() {
+	private Foo() {
 		System.out.println("Foo!");
 		id = 0;
 	}
