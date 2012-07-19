@@ -4,11 +4,11 @@ public class Foo extends Bar {
 
 	/**
 	* The foo constructor.
-	*/	
+	*/
 	private Foo() {
 		System.out.println("Foo!");
 		id = 0;
-		bar();
+		System.out.println(bar(1337));
 	}
 
 	/**
@@ -20,5 +20,5 @@ public class Foo extends Bar {
 		System.out.println("Bar!");
 		return fu - 1;
 	}
-	
+
 }
